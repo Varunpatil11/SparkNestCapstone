@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>Spark_Nest_Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>Spark_Nest_App_Logo</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>Spark Nest is a collaborative platform designed to bring ideas, innovation, and teamwork together in one place. It provides users with a centralized space to share ideas, discover opportunities, collaborate with team members.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <isOmniPinnedViewEnabled>false</isOmniPinnedViewEnabled>
+    <label>Spark Nest</label>
+    <navType>Standard</navType>
+    <tabs>standard-home</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>standard-DevopsActivityLog</tabs>
+    <tabs>standard-AppointmentInvitation</tabs>
+    <tabs>standard-Award</tabs>
+    <tabs>standard-Feed</tabs>
+    <tabs>standard-Customer</tabs>
+    <tabs>standard-AgentforceStudio</tabs>
+    <tabs>Perfume__c</tabs>
+    <tabs>Enquiry__c</tabs>
+    <tabs>Drop_Reservation__c</tabs>
+    <tabs>Territory__c</tabs>
+    <tabs>Account_Audit__c</tabs>
+    <tabs>Enquiry_Product__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Spark_Nest_UtilityBar</utilityBar>
+</CustomApplication>
